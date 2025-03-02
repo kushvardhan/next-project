@@ -24,7 +24,7 @@ export default function ProfilePage() {
         <div className="relative w-full h-screen flex flex-col justify-center items-center gap-3">
             <button
                 onClick={handleLogOut}
-                className="absolute top-8 right-6 text-zinc-900 text-xs p-2 hover:bg-red-500 rounded-lg bg-red-600"
+                className="absolute top-8 cursor-pointer right-6 text-zinc-900 text-xs p-2 hover:bg-red-500 rounded-lg bg-red-600"
             >
                 Logout
             </button>

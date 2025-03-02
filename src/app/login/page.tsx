@@ -37,7 +37,7 @@ export default function LoginPage() {
         <div className="w-full h-screen flex items-center justify-center">
             <form 
                 onSubmit={handleLogin} 
-                className="p-7 border border-zinc-500 rounded-md shadow-lg shadow-zinc-400 flex flex-col gap-3"
+                className="p-7 border border-green-200 rounded-md shadow-lg shadow-zinc-400 flex flex-col gap-3"
             >
                 <h1 className="text-center text-2xl mb-1 select-none">{loading ? "Processing..." : "Login"}</h1>
 
